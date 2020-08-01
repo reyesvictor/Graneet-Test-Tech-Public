@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+Codage/client/node_modules
+Codage/server/node_modules
+Codage/server/codes-postaux.json
+Codage/server/codes-postaux-mongodb.json
+Codage/client/.pnp
+Codage/client/.pnp.js
+Codage/client/# testing
+Codage/client//coverage
+Codage/client/# production
+Codage/client//build
+Codage/client/# misc
+Codage/client/.DS_Store
+Codage/client/.env.local
+Codage/client/.env.development.local
+Codage/client/.env.test.local
+Codage/client/.env.production.local
+Codage/client/npm-debug.log*
+Codage/client/yarn-debug.log*
+Codage/client/yarn-error.log*

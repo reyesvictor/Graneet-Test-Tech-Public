@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  background: #f3fdff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+p,
+div,
+span {
+  font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Search bar */
+#searchbar {
+  border-radius: 0.5vw;
+  padding: 0.3vw;
+  background: #d2e5e9;
+  width: 100%;
+}
+
+#searchbar h1 {
+  white-space: nowrap;
+  margin-left: 1vw;
+}
+
+#searchbar input {
+  border-radius: 0.5vw;
+  margin-left: 2vw;
+  /* background: green; */
+  border: none;
+  height: 3vw;
+  width: 100%;
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: grey;
+}
+
+#metropole-villes-container {
+  padding: 3vw 3vw;
+  padding-top: 1vw;
+  margin-top: 1vw;
+  border-radius: 0.5vw;
+  background: #d2e5e9;
+}
+
+#exterieur-villes-container {
+  padding: 3vw 3vw;
+  padding-top: 1vw;
+  margin-top: 1vw;
+  /* margin-right: 1vw; */
+  border-radius: 0.5vw;
+  background: #d2e5e9;
+}
+
+.titre {
+  margin-bottom: 2vw;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results > * {
+  flex: 1 1 40%;
+}
+
+.bloc {
+  padding: 1.3vw 2vw;
+}
+
+.msg {
+  font-size: 1vw;
+  margin: 3vh 0;
+  color: white;
+  text-align: left;
+}
+
+.msg-success {
+  background: #72cb79;
+}
+
+.msg-danger {
+  background: #c37779;
+}
+
+.msg-info {
+  background: #aec6cf;
+}
+
+.ville {
+  background: #5c6670;
+  margin-bottom: 2vh;
+  margin-right: 0.2vw;
+  margin-left: 0.2vw;
+  font-size: 1vw;
+}
+
+.nom {
+  color: white;
+  text-align: left;
+  width: 70%;
+}
+
+.code-postal {
+  width: 30%;
+  color: #858b97;
+  text-align: right;
+}
